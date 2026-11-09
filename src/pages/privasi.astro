@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, withBase } from '../config/site';
+---
+
+<Base title="Kebijakan Privasi" description="Kebijakan privasi PrediksiTNI: latihan berjalan sepenuhnya di browser, tanpa akun dan tanpa pengiriman jawaban ke server." path="/privasi/">
+  <nav class="breadcrumb"><a href={withBase('/')}>beranda</a> / <span>privasi</span></nav>
+  <h1>Kebijakan Privasi</h1>
+  <div class="prose narrow">
+    <p>Terakhir diperbarui: 9 November 2026.</p>
+    <h2>Data yang kami kumpulkan</h2>
+    <p>
+      {SITE_NAME} dirancang sesedikit mungkin mengumpulkan data:
+    </p>
+    <ul>
+      <li><strong>Tidak ada akun.</strong> Anda tidak perlu mendaftar, masuk, atau memberikan nama, email, maupun nomor telepon untuk mengerjakan latihan.</li>
+      <li><strong>Jawaban latihan tidak dikirim ke mana pun.</strong> Mesin kuis berjalan sepenuhnya di browser Anda; skor dan jawaban hanya hidup selama halaman terbuka dan hilang saat halaman ditutup.</li>
+      <li><strong>Email yang Anda kirim</strong> ke alamat kontak kami dipakai hanya untuk membalas pesan Anda dan tidak dibagikan ke pihak lain.</li>
+    </ul>
+    <h2>Cookie dan iklan</h2>
+    <p>
+      Situs ini sendiri tidak memasang cookie pelacak. Bila di kemudian hari situs ini menampilkan iklan
+      pihak ketiga (misalnya Google AdSense), penyedia iklan dapat memakai cookie untuk menampilkan iklan
+      yang relevan sesuai kebijakan mereka masing-masing; Anda dapat mengelola cookie melalui pengaturan
+      browser Anda.
+    </p>
+    <h2>Tautan keluar</h2>
+    <p>
+      Situs ini menaut ke portal resmi rekrutmen TNI (rekrutmen-tni.mil.id). Kami tidak bertanggung jawab
+      atas kebijakan privasi situs lain tersebut.
+    </p>
+    <h2>Perubahan</h2>
+    <p>
+      Bila kebijakan ini berubah, versi terbaru akan diterbitkan di halaman ini beserta tanggal
+      perubahannya. Pertanyaan tentang privasi: lihat <a href={withBase('/kontak/')}>halaman kontak</a>.
+    </p>
+  </div>
+</Base>

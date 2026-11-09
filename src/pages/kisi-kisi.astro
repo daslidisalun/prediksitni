@@ -1,0 +1,93 @@
+---
+import Base from '../layouts/Base.astro';
+import { withBase } from '../config/site';
+---
+
+<Base title="Kisi-Kisi Tes Akademik TNI" description="Matriks mata uji seleksi TNI per jalur — Akademi TNI vs Bintara & Tamtama — tahapan seleksi, sumber resmi, dan catatan jujur tentang kisi-kisi yang tidak diterbitkan panitia." path="/kisi-kisi/">
+  <nav class="breadcrumb"><a href={withBase('/')}>beranda</a> / <span>kisi-kisi</span></nav>
+  <h1>Kisi-Kisi Tes Akademik TNI &amp; Tahapan Seleksi</h1>
+
+  <div class="prose narrow">
+    <p class="lead">
+      Halaman ini memetakan materi yang perlu disiapkan calon prajurit TNI: mata uji akademik per jalur,
+      tahapan seleksi secara umum, dan — yang paling penting — batas jujur tentang apa yang benar-benar
+      diketahui publik soal kisi-kisi TNI.
+    </p>
+
+    <h2>Catatan kejujuran dulu: kisi-kisi resmi tidak diterbitkan</h2>
+    <p>
+      Pengumuman penerimaan prajurit di portal resmi <strong>rekrutmen-tni.mil.id</strong> memuat syarat,
+      jadwal, dan tahapan seleksi — tetapi <strong>tidak</strong> menerbitkan rincian kisi-kisi per mata
+      pelajaran, dan <strong>tidak pernah</strong> menerbitkan soal seleksi tahun-tahun sebelumnya. Soal
+      seleksi bersifat rahasia.
+    </p>
+    <p>
+      Maka matriks mata uji di bawah ini adalah <strong>rekonstruksi yang dipakai luas</strong>: disusun
+      dari kurikulum SMA/sederajat (karena materi akademik seleksi berpijak pada pelajaran sekolah),
+      ditambah pola yang dilaporkan peserta dari tahun ke tahun dan dipakai bimbingan belajar pada
+      umumnya. Perlakukan daftar ini sebagai peta belajar yang masuk akal — bukan dokumen resmi panitia,
+      dan bukan jaminan bahwa persis inilah yang keluar. Situs mana pun yang mengklaim memegang
+      "kisi-kisi resmi bocor" atau "soal asli TNI" sedang tidak jujur kepada Anda.
+    </p>
+
+    <h2>Matriks mata uji per jalur</h2>
+    <div class="tabel-geser">
+    <table>
+      <thead>
+        <tr><th>Mata uji</th><th>Akademi TNI (Akmil / AAL / AAU)</th><th>Bintara PK &amp; Tamtama PK</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Matematika</td><td>Ya — tingkat SMA, porsi besar</td><td>Ya — matematika dasar</td></tr>
+        <tr><td>Pengetahuan Alam (Fisika, Kimia, Biologi)</td><td>Ya — dasar-dasar SMA</td><td>Umumnya tidak diujikan tersendiri</td></tr>
+        <tr><td>Bahasa Inggris</td><td>Ya — grammar, kosakata, reading</td><td>Kadang muncul dalam set campuran</td></tr>
+        <tr><td>Bahasa Indonesia</td><td>Ya — tata bahasa dan pemahaman teks</td><td>Kadang muncul dalam set campuran</td></tr>
+        <tr><td>Wawasan Kebangsaan</td><td>Ya — Pancasila, UUD 1945, NKRI, sejarah</td><td>Ya — porsi besar</td></tr>
+        <tr><td>Pengetahuan Umum</td><td>Ya — geografi, kewarganegaraan, isu nasional</td><td>Ya — porsi besar, termasuk dasar UU TNI</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p>
+      Ringkasnya: jalur <strong>Akademi adalah set lengkap yang berat</strong> — enam mata uji dengan
+      Pengetahuan Alam sebagai pembeda utama. Jalur <strong>Bintara &amp; Tamtama lebih ringan</strong> —
+      bertumpu pada Wawasan Kebangsaan, Pengetahuan Umum, dan Matematika Dasar. Dua paket contoh di situs
+      ini mengikuti pembagian persis seperti itu:
+      <a href={withBase('/paket/akademi-tni/')}>paket Akademi TNI (50 soal)</a> dan
+      <a href={withBase('/paket/bintara-tamtama/')}>paket Bintara &amp; Tamtama (40 soal)</a>.
+    </p>
+
+    <h2>Rincian topik per mata uji</h2>
+    <ul>
+      <li><strong>Matematika (Akademi):</strong> aritmetika dan persen, perbandingan, barisan dan deret, geometri dasar, persamaan linear, peluang dan statistika sederhana, soal cerita.</li>
+      <li><strong>Pengetahuan Alam:</strong> Fisika — besaran dan satuan SI, gerak dan kelajuan, gaya dan energi; Kimia — unsur dan lambangnya, atom dan molekul, pH, perubahan wujud; Biologi — sel dan organel, sistem organ, pewarisan sifat, rantai makanan.</li>
+      <li><strong>Bahasa Inggris:</strong> tenses dan subject–verb agreement, preposisi, sinonim dan kosakata umum, comparative degree, pemahaman bacaan pendek.</li>
+      <li><strong>Bahasa Indonesia:</strong> ide pokok paragraf, kalimat efektif, kata baku, sinonim–antonim, huruf kapital dan tanda baca sesuai PUEBI.</li>
+      <li><strong>Wawasan Kebangsaan:</strong> Pancasila dan lambang sila-silanya, UUD 1945 (Pembukaan dan pasal-pasal kunci), NKRI dan Bhinneka Tunggal Ika, Sumpah Pemuda, Proklamasi, sejarah perjuangan bangsa, bela negara.</li>
+      <li><strong>Pengetahuan Umum:</strong> geografi Indonesia (pulau, sungai, danau, gunung, ibu kota provinsi), kewarganegaraan, dasar-dasar UU No. 34 Tahun 2004 tentang TNI, dan isu nasional umum.</li>
+    </ul>
+
+    <h2>Tahapan seleksi secara umum</h2>
+    <ol>
+      <li><strong>Administrasi</strong> — pemeriksaan kelengkapan dan keabsahan berkas: ijazah, KTP, kartu keluarga, akta kelahiran, dan dokumen lain sesuai pengumuman tahun berjalan.</li>
+      <li><strong>Kesehatan</strong> — pemeriksaan medis menyeluruh, dari tinggi dan berat badan, mata, gigi, hingga pemeriksaan dalam, dalam beberapa tahap.</li>
+      <li><strong>Jasmani (kesamaptaan)</strong> — lari 12 menit, pull up, sit up, push up, shuttle run, dan renang, ditambah pemeriksaan postur. Nilainya terukur dan bisa dilatih jauh-jauh hari.</li>
+      <li><strong>Psikologi</strong> — tes kecerdasan, kepribadian, dan sikap kerja yang diselenggarakan dinas psikologi. Latihan di situs ini menyentuh sisi kecerdasan (pola, deret, verbal); penilaian kepribadian tidak bisa "dibocorkan" dan tidak kami tiru.</li>
+      <li><strong>Akademik</strong> — tes tulis/berbasis komputer atas mata uji pada matriks di atas. Inilah tahap yang dilatih paket-paket di PrediksiTNI.</li>
+      <li><strong>Penelitian personel / mental ideologi (litpers)</strong> — penelusuran latar belakang dan wawancara mental ideologi: pemahaman Pancasila, UUD 1945, dan wawasan kebangsaan diuji secara lisan dan tertulis.</li>
+    </ol>
+    <p>
+      Urutan dan penamaan tahap dapat berbeda antar matra (AD, AL, AU) dan antar tahun penerimaan —
+      selalu cocokkan dengan pengumuman resmi tahun berjalan.
+    </p>
+
+    <h2>Sumber resmi</h2>
+    <ul>
+      <li>Portal pendaftaran resmi: <strong>rekrutmen-tni.mil.id</strong> (per matra: AD, AL, AU) — satu-satunya jalur pendaftaran; seleksi tidak dipungut biaya.</li>
+      <li>UU No. 34 Tahun 2004 tentang Tentara Nasional Indonesia — dasar hukum tugas pokok dan struktur TNI.</li>
+      <li>UUD 1945 dan teks Pancasila — rujukan utama materi Wawasan Kebangsaan.</li>
+    </ul>
+    <p>
+      PrediksiTNI adalah situs latihan mandiri dan <strong>tidak berafiliasi dengan TNI</strong>.
+      Informasi pendaftaran yang sah hanya yang terbit di portal resmi di atas.
+    </p>
+  </div>
+</Base>

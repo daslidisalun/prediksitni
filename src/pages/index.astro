@@ -1,0 +1,71 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, SITE_TAGLINE, withBase } from '../config/site';
+import { PAKETS, totalSoal } from '../lib/paket';
+---
+
+<Base title={SITE_NAME} path="/">
+  <section class="hero">
+    <h1>Prediksi Soal Tes Akademik TNI — Latihan Akademi, Bintara &amp; Tamtama</h1>
+    <p>
+      Latihan soal yang disusun mengikuti mata uji seleksi TNI yang umum diujikan — Matematika,
+      Pengetahuan Alam, Bahasa Inggris, Bahasa Indonesia, Wawasan Kebangsaan, dan Pengetahuan Umum —
+      lengkap dengan kunci jawaban dan pembahasan per soal. Klik jawaban, hasilnya ketahuan seketika.
+    </p>
+    <a class="btn" href={withBase('/paket/')}>Mulai Latihan — {totalSoal()} Soal Gratis</a>
+  </section>
+
+  <div class="nota-jujur">
+    <strong>Catatan kejujuran:</strong> semua soal di situs ini adalah soal latihan <strong>orisinal</strong>
+    yang kami susun sendiri mengikuti mata uji dan materi pelajaran seleksi TNI. Ini <strong>bukan
+    bocoran</strong>, <strong>bukan soal resmi</strong>, dan situs ini <strong>tidak berafiliasi dengan
+    TNI</strong>. Panitia seleksi tidak pernah menerbitkan soal tahun-tahun sebelumnya — situs mana pun
+    yang mengklaim punya "soal asli" patut diragukan. Pendaftaran resmi hanya melalui
+    rekrutmen-tni.mil.id. Baca juga <a href={withBase('/disclaimer/')}>disclaimer lengkapnya</a>.
+  </div>
+
+  <h2>Paket Contoh</h2>
+  <p class="narrow">
+    Dua paket contoh ini menunjukkan format dan tingkat kesulitan latihan di PrediksiTNI: satu paket
+    untuk jalur perwira (Akademi TNI) dan satu paket untuk jalur Bintara &amp; Tamtama.
+  </p>
+  <div class="kartu-grid">
+    {PAKETS.map((p) => (
+      <a class="kartu-paket" href={withBase(`/paket/${p.slug}/`)}>
+        <h3>{p.judul}</h3>
+        <p>{p.intro}</p>
+        <span class="meta">
+          <span class="chip">{p.jalur}</span>
+          <span class="chip">{p.soal.length} soal</span>
+          <span class="chip">±{p.durasiMenit} menit</span>
+        </span>
+      </a>
+    ))}
+  </div>
+
+  <div class="prose narrow">
+    <h2>Jalur Seleksi TNI yang Dilatih</h2>
+    <ul>
+      <li><strong>Akademi TNI</strong> — jalur perwira untuk lulusan SMA/sederajat: Akademi Militer (Akmil, TNI AD), Akademi Angkatan Laut (AAL), dan Akademi Angkatan Udara (AAU). Tes akademiknya paling berat: ada Pengetahuan Alam (Fisika, Kimia, Biologi) di samping Matematika dan bahasa.</li>
+      <li><strong>Bintara PK</strong> — jalur bintara prajurit karier di tiga matra (AD, AL, AU). Materi akademiknya lebih ramping, dominan Wawasan Kebangsaan, Pengetahuan Umum, dan Matematika dasar.</li>
+      <li><strong>Tamtama PK</strong> — jalur tamtama prajurit karier di tiga matra. Pola materinya mirip Bintara dengan tingkat kesulitan dasar.</li>
+    </ul>
+    <p>
+      Tiga matra yang bisa dipilih: <strong>TNI Angkatan Darat (AD)</strong>, <strong>TNI Angkatan Laut
+      (AL)</strong>, dan <strong>TNI Angkatan Udara (AU)</strong>. Mata uji akademiknya berhimpitan besar;
+      yang berbeda terutama penekanan jasmani dan kebutuhan tiap matra.
+    </p>
+
+    <h2>Sekilas Kisi-Kisi</h2>
+    <p>
+      Untuk jalur Akademi, mata uji yang umum diujikan adalah Matematika, Pengetahuan Alam, Bahasa
+      Inggris, Bahasa Indonesia, dan Wawasan Kebangsaan. Untuk Bintara &amp; Tamtama, setnya lebih ringan:
+      Wawasan Kebangsaan, Pengetahuan Umum, dan Matematika Dasar. Perlu dicatat dengan jujur:
+      pengumuman resmi TNI <em>tidak</em> menerbitkan rincian kisi-kisi per mata pelajaran — daftar ini
+      adalah rekonstruksi yang dipakai luas, disusun dari kurikulum SMA dan pola seleksi yang dilaporkan
+      dari tahun ke tahun. Uraian lengkapnya ada di
+      <a href={withBase('/kisi-kisi/')}>halaman kisi-kisi</a>.
+    </p>
+    <p>{SITE_TAGLINE}. Latihan yang rutin jauh lebih menentukan daripada berburu bocoran yang tidak ada.</p>
+  </div>
+</Base>

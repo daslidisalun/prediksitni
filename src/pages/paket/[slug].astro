@@ -1,0 +1,12 @@
+---
+import PaketPage from '../../layouts/PaketPage.astro';
+import { PAKETS, cariPaket } from '../../lib/paket';
+
+export function getStaticPaths() {
+  return PAKETS.map((p) => ({ params: { slug: p.slug } }));
+}
+
+const paket = cariPaket(Astro.params.slug!)!;
+---
+
+<PaketPage paket={paket} />

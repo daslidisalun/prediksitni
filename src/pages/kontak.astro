@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, SITE_EMAIL, withBase } from '../config/site';
+---
+
+<Base title="Kontak" description="Hubungi tim PrediksiTNI melalui email untuk pertanyaan, koreksi soal, dan masukan." path="/kontak/">
+  <nav class="breadcrumb"><a href={withBase('/')}>beranda</a> / <span>kontak</span></nav>
+  <h1>Kontak</h1>
+  <div class="prose narrow">
+    <p>
+      Cara tercepat menghubungi tim {SITE_NAME} adalah lewat email:
+    </p>
+    <p><strong>{SITE_EMAIL}</strong></p>
+    <p>Kami membaca terutama tiga jenis pesan:</p>
+    <ul>
+      <li><strong>Koreksi soal</strong> — bila Anda menemukan kunci jawaban yang keliru atau soal yang ambigu, sebutkan nomor soal dan nama paketnya. Koreksi yang terbukti benar akan kami perbaiki.</li>
+      <li><strong>Permintaan materi</strong> — jalur atau mata uji yang ingin Anda lihat paket latihannya.</li>
+      <li><strong>Kerja sama dan pertanyaan umum</strong> tentang situs ini.</li>
+    </ul>
+    <p>
+      Catatan: kami <strong>tidak</strong> melayani pertanyaan tentang pendaftaran resmi, jadwal seleksi,
+      atau hasil seleksi — itu kewenangan panitia di portal resmi rekrutmen-tni.mil.id. Kami juga tidak
+      menjual soal, tidak memungut biaya apa pun, dan tidak pernah meminta data pribadi selain yang Anda
+      tulis sendiri di email.
+    </p>
+  </div>
+</Base>

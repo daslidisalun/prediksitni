@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import { withBase } from '../config/site';
+---
+
+<Base title="404 — Halaman Tidak Ditemukan" description="Halaman yang Anda cari tidak ditemukan di PrediksiTNI." path="/404/">
+  <h1>404 — Halaman Tidak Ditemukan</h1>
+  <div class="prose narrow">
+    <p>Alamat yang Anda tuju tidak ada atau sudah dipindahkan.</p>
+    <p>
+      Kembali ke <a href={withBase('/')}>beranda</a> atau langsung ke
+      <a href={withBase('/paket/')}>daftar paket soal</a>.
+    </p>
+  </div>
+</Base>

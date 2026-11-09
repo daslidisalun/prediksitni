@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, SITE_EMAIL, withBase } from '../config/site';
+---
+
+<Base title="Tentang PrediksiTNI" description="Tentang PrediksiTNI: situs latihan mandiri soal tes akademik TNI — orisinal, mengikuti mata uji seleksi, bukan bocoran, tidak berafiliasi dengan TNI." path="/tentang/">
+  <nav class="breadcrumb"><a href={withBase('/')}>beranda</a> / <span>tentang</span></nav>
+  <h1>Tentang {SITE_NAME}</h1>
+  <div class="prose narrow">
+    <p>
+      {SITE_NAME} adalah situs latihan mandiri untuk calon peserta seleksi prajurit TNI — jalur Akademi
+      TNI (Akmil, AAL, AAU), Bintara PK, dan Tamtama PK di tiga matra: Angkatan Darat, Angkatan Laut,
+      dan Angkatan Udara.
+    </p>
+    <h2>Cara kami menyusun soal</h2>
+    <ul>
+      <li>Semua soal <strong>ditulis orisinal</strong> oleh tim kami. Tidak ada soal yang disalin dari buku, bimbingan belajar, atau situs lain.</li>
+      <li>Peta materinya mengikuti <strong>mata uji yang umum diujikan</strong> pada seleksi TNI dan materi pelajaran sekolah (kurikulum SMA/sederajat), Pancasila, UUD 1945, dan dasar-dasar UU No. 34 Tahun 2004 tentang TNI.</li>
+      <li>Soal-soal hitungan Matematika <strong>dihasilkan dengan program generator</strong> sehingga kunci jawabannya terhitung secara pasti, bukan ditebak.</li>
+      <li>Setiap soal melewati <strong>pemeriksaan kunci dan pembahasan</strong>: tepat satu jawaban yang dapat dipertahankan benar.</li>
+    </ul>
+    <h2>Arti kata "prediksi" di situs ini</h2>
+    <p>
+      Sama seperti istilah yang dipakai bimbingan belajar pada umumnya: prediksi berarti memperkirakan
+      pola dan materi yang akan diujikan berdasarkan kisi-kisi dan pola tahun-tahun sebelumnya — lalu
+      melatihnya dengan soal-soal baru. Ini <strong>bukan</strong> bocoran. Soal seleksi TNI bersifat
+      rahasia dan tidak diterbitkan panitia; tidak ada pihak di luar panitia yang memegang soal aslinya.
+    </p>
+    <h2>Bukan situs resmi</h2>
+    <p>
+      {SITE_NAME} adalah situs independen dan <strong>tidak berafiliasi dengan TNI</strong> maupun
+      instansi pemerintah mana pun. Pendaftaran seleksi hanya dilakukan melalui portal resmi
+      rekrutmen-tni.mil.id dan tidak dipungut biaya. Lihat juga
+      <a href={withBase('/disclaimer/')}> halaman disclaimer</a>.
+    </p>
+    <p>Pertanyaan dan masukan: <a href={withBase('/kontak/')}>halaman kontak</a> atau email ke {SITE_EMAIL}.</p>
+  </div>
+</Base>

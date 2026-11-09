@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import { withBase } from '../../config/site';
+import { PAKETS } from '../../lib/paket';
+---
+
+<Base title="Paket Soal Latihan TNI" description="Daftar paket latihan soal tes akademik TNI: paket Akademi TNI serta paket Bintara & Tamtama, lengkap dengan kunci dan pembahasan." path="/paket/">
+  <nav class="breadcrumb"><a href={withBase('/')}>beranda</a> / <span>paket soal</span></nav>
+  <h1>Paket Soal Latihan TNI</h1>
+  <p class="lead narrow">
+    Setiap paket dikerjakan langsung di halaman ini — klik jawaban dan pembahasannya muncul seketika,
+    skor berjalan tampil di bagian atas paket. Semua soal adalah latihan orisinal berlabel prediksi,
+    bukan bocoran dan bukan soal resmi.
+  </p>
+  <div class="kartu-grid">
+    {PAKETS.map((p) => (
+      <a class="kartu-paket" href={withBase(`/paket/${p.slug}/`)}>
+        <h3>{p.judul}</h3>
+        <p>{p.intro}</p>
+        <span class="meta">
+          <span class="chip">{p.jalur}</span>
+          <span class="chip">{p.soal.length} soal</span>
+          <span class="chip">±{p.durasiMenit} menit</span>
+        </span>
+        <p style="margin-top:12px">
+          {p.komposisi.map((k) => `${k.topik} ${k.jumlah}`).join(' · ')}
+        </p>
+      </a>
+    ))}
+  </div>
+  <div class="prose narrow">
+    <p>
+      Belum yakin mulai dari mana? Baca dulu <a href={withBase('/kisi-kisi/')}>kisi-kisi dan tahapan
+      seleksi TNI</a> — di sana ada matriks mata uji per jalur dan catatan tentang apa yang benar-benar
+      diterbitkan panitia secara resmi.
+    </p>
+  </div>
+</Base>

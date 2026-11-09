@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daslidisalun.github.io/prediksitni/sitemap.xml

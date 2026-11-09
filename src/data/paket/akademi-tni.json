@@ -1,0 +1,631 @@
+{
+  "slug": "akademi-tni",
+  "judul": "Prediksi Soal Tes Akademik Taruna Akademi TNI",
+  "jalur": "Akademi TNI (Akmil · AAL · AAU)",
+  "durasiMenit": 100,
+  "intro": "Latihan 50 soal untuk calon Taruna Akademi TNI: Matematika 12 soal, Pengetahuan Alam 12 soal (Fisika, Kimia, Biologi dasar SMA), Bahasa Inggris 8 soal, Bahasa Indonesia 8 soal, dan Wawasan Kebangsaan 10 soal. Soal latihan orisinal mengikuti mata uji yang umum diujikan pada seleksi Akademi TNI — bukan bocoran dan bukan soal resmi.",
+  "komposisi": [
+    {
+      "topik": "Matematika",
+      "jumlah": 12
+    },
+    {
+      "topik": "Pengetahuan Alam",
+      "jumlah": 12
+    },
+    {
+      "topik": "Bahasa Inggris",
+      "jumlah": 8
+    },
+    {
+      "topik": "Bahasa Indonesia",
+      "jumlah": 8
+    },
+    {
+      "topik": "Wawasan Kebangsaan",
+      "jumlah": 10
+    }
+  ],
+  "soal": [
+    {
+      "tanya": "Hasil dari 30% dari 360 adalah ...",
+      "pilihan": [
+        "108",
+        "144",
+        "90",
+        "120"
+      ],
+      "kunci": 0,
+      "bahasan": "30% dari 360 = 30/100 × 360 = 108.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Perbandingan jumlah calon Bintara dan Tamtama dalam satu gelombang latihan adalah 4 : 3. Jika jumlah seluruh calon adalah 63 orang, jumlah calon Tamtama adalah ...",
+      "pilihan": [
+        "36 orang",
+        "18 orang",
+        "27 orang",
+        "45 orang"
+      ],
+      "kunci": 2,
+      "bahasan": "Jumlah perbandingan = 4 + 3 = 7. Nilai satu bagian = 63 : 7 = 9. Calon Tamtama = 3 × 9 = 27 orang.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Suku ke-9 dari barisan aritmetika 8, 11, 14, 17, ... adalah ...",
+      "pilihan": [
+        "29",
+        "32",
+        "35",
+        "38"
+      ],
+      "kunci": 1,
+      "bahasan": "Suku pertama a = 8 dan beda b = 3. Suku ke-9: Un = a + (n − 1)b = 8 + 8 × 3 = 32.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Suku ke-6 dari barisan geometri 5, 10, 20, ... adalah ...",
+      "pilihan": [
+        "80",
+        "170",
+        "320",
+        "160"
+      ],
+      "kunci": 3,
+      "bahasan": "Rasio r = 2. Suku ke-6: Un = a × r^(n−1) = 5 × 2^5 = 160.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Sebuah bendera upacara berbentuk segitiga dengan panjang alas 12 cm dan tinggi 6 cm. Luas bendera tersebut adalah ...",
+      "pilihan": [
+        "72 cm²",
+        "42 cm²",
+        "36 cm²",
+        "24 cm²"
+      ],
+      "kunci": 2,
+      "bahasan": "Luas segitiga = ½ × alas × tinggi = ½ × 12 × 6 = 36 cm².",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Lapangan apel berbentuk persegi panjang dengan panjang 14 m dan lebar 6 m. Keliling lapangan tersebut adalah ...",
+      "pilihan": [
+        "40 m",
+        "20 m",
+        "68 m",
+        "84 m"
+      ],
+      "kunci": 0,
+      "bahasan": "Keliling persegi panjang = 2 × (p + l) = 2 × (14 + 6) = 40 m. Pilihan 84 m adalah luasnya, bukan kelilingnya.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Harga 3 buku tulis dan 2 pensil adalah Rp18.000, sedangkan harga 5 buku tulis dan 1 pensil adalah Rp23.000. Harga 4 buku tulis dan 3 pensil adalah ...",
+      "pilihan": [
+        "Rp26.500",
+        "Rp23.000",
+        "Rp41.000",
+        "Rp25.000"
+      ],
+      "kunci": 3,
+      "bahasan": "Misalkan buku = x dan pensil = y. Dari kedua persamaan diperoleh x = Rp4.000 dan y = Rp3.000. Maka 4x + 3y = 4 × 4.000 + 3 × 3.000 = Rp25.000.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Sebuah dadu bersisi enam dilempar satu kali. Peluang muncul mata dadu lebih dari 4 adalah ...",
+      "pilihan": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "5/6"
+      ],
+      "kunci": 1,
+      "bahasan": "Mata dadu yang memenuhi syarat ada 2 dari 6 kemungkinan, jadi peluangnya 2/6 = 1/3.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Nilai lima kali tes tertulis seorang calon adalah 80, 71, 57, 93, 79. Nilai rata-rata calon tersebut adalah ...",
+      "pilihan": [
+        "76",
+        "78",
+        "73",
+        "81"
+      ],
+      "kunci": 0,
+      "bahasan": "Jumlah nilai = 80 + 71 + 57 + 93 + 79 = 380. Rata-rata = 380 : 5 = 76.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Sepasang sepatu latihan berharga Rp250.000 mendapat potongan harga 25%. Jumlah uang yang harus dibayar pembeli adalah ...",
+      "pilihan": [
+        "Rp200.000",
+        "Rp177.500",
+        "Rp187.500",
+        "Rp62.500"
+      ],
+      "kunci": 2,
+      "bahasan": "Potongan = 25% × Rp250.000 = Rp62.500. Yang dibayar = Rp250.000 − Rp62.500 = Rp187.500.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Sebuah kendaraan dinas menempuh jarak 300 km dalam waktu 5 jam dengan kecepatan tetap. Kecepatan rata-rata kendaraan tersebut adalah ...",
+      "pilihan": [
+        "70 km/jam",
+        "60 km/jam",
+        "55 km/jam",
+        "1500 km/jam"
+      ],
+      "kunci": 1,
+      "bahasan": "Kecepatan = jarak : waktu = 300 : 5 = 60 km/jam.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Jika 5x + 6 = 71, maka nilai x adalah ...",
+      "pilihan": [
+        "14",
+        "12",
+        "16",
+        "13"
+      ],
+      "kunci": 3,
+      "bahasan": "5x = 71 − 6 = 65, sehingga x = 65 : 5 = 13.",
+      "topik": "Matematika"
+    },
+    {
+      "tanya": "Satuan gaya dalam Sistem Internasional (SI) adalah ...",
+      "pilihan": [
+        "joule",
+        "watt",
+        "newton",
+        "pascal"
+      ],
+      "kunci": 2,
+      "bahasan": "Gaya diukur dalam newton (N). Joule adalah satuan energi, watt satuan daya, dan pascal satuan tekanan.",
+      "topik": "Pengetahuan Alam (Fisika)"
+    },
+    {
+      "tanya": "Sebuah kendaraan bergerak menempuh jarak 120 meter dalam waktu 10 sekon dengan kelajuan tetap. Kelajuan kendaraan tersebut adalah ...",
+      "pilihan": [
+        "12 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "kunci": 0,
+      "bahasan": "Kelajuan = jarak : waktu = 120 m : 10 s = 12 m/s.",
+      "topik": "Pengetahuan Alam (Fisika)"
+    },
+    {
+      "tanya": "Energi kinetik sebuah benda yang bergerak akan menjadi lebih besar apabila ...",
+      "pilihan": [
+        "massanya bertambah tetapi kelajuannya berkurang",
+        "benda berhenti bergerak",
+        "benda berada pada tempat yang lebih tinggi",
+        "massa dan kelajuannya bertambah"
+      ],
+      "kunci": 3,
+      "bahasan": "Energi kinetik dirumuskan Ek = ½mv², sehingga membesar bila massa (m) dan kelajuan (v) bertambah. Ketinggian memengaruhi energi potensial, bukan energi kinetik.",
+      "topik": "Pengetahuan Alam (Fisika)"
+    },
+    {
+      "tanya": "Alat yang digunakan untuk mengukur kuat arus listrik dalam suatu rangkaian adalah ...",
+      "pilihan": [
+        "voltmeter",
+        "amperemeter",
+        "ohmmeter",
+        "termometer"
+      ],
+      "kunci": 1,
+      "bahasan": "Kuat arus listrik diukur dengan amperemeter. Voltmeter mengukur tegangan, ohmmeter mengukur hambatan, dan termometer mengukur suhu.",
+      "topik": "Pengetahuan Alam (Fisika)"
+    },
+    {
+      "tanya": "Lambang unsur emas adalah ...",
+      "pilihan": [
+        "Au",
+        "Ag",
+        "Fe",
+        "Pb"
+      ],
+      "kunci": 0,
+      "bahasan": "Emas berlambang Au (dari bahasa Latin aurum). Ag adalah perak, Fe adalah besi, dan Pb adalah timbal.",
+      "topik": "Pengetahuan Alam (Kimia)"
+    },
+    {
+      "tanya": "Suatu larutan diketahui bersifat asam. Nilai pH larutan tersebut adalah ...",
+      "pilihan": [
+        "tepat 7",
+        "lebih dari 7",
+        "kurang dari 7",
+        "selalu 14"
+      ],
+      "kunci": 2,
+      "bahasan": "Skala pH: larutan asam mempunyai pH kurang dari 7, larutan netral tepat 7, dan larutan basa lebih dari 7.",
+      "topik": "Pengetahuan Alam (Kimia)"
+    },
+    {
+      "tanya": "Partikel terkecil dari suatu unsur yang masih memiliki sifat unsur tersebut adalah ...",
+      "pilihan": [
+        "molekul",
+        "atom",
+        "ion",
+        "campuran"
+      ],
+      "kunci": 1,
+      "bahasan": "Atom adalah partikel terkecil penyusun unsur yang masih mempertahankan sifat unsur itu. Molekul adalah gabungan dua atom atau lebih, sedangkan ion adalah atom atau kelompok atom bermuatan.",
+      "topik": "Pengetahuan Alam (Kimia)"
+    },
+    {
+      "tanya": "Perubahan wujud zat dari gas menjadi cair disebut ...",
+      "pilihan": [
+        "mencair",
+        "membeku",
+        "menyublim",
+        "mengembun"
+      ],
+      "kunci": 3,
+      "bahasan": "Gas berubah menjadi cair disebut mengembun, misalnya terbentuknya embun. Mencair adalah padat menjadi cair, membeku cair menjadi padat, dan menyublim padat menjadi gas.",
+      "topik": "Pengetahuan Alam (Kimia)"
+    },
+    {
+      "tanya": "Organel sel tumbuhan yang menjadi tempat berlangsungnya fotosintesis adalah ...",
+      "pilihan": [
+        "mitokondria",
+        "ribosom",
+        "kloroplas",
+        "nukleus"
+      ],
+      "kunci": 2,
+      "bahasan": "Fotosintesis berlangsung di kloroplas yang mengandung klorofil. Mitokondria berperan dalam respirasi sel, ribosom dalam sintesis protein, dan nukleus mengatur aktivitas sel.",
+      "topik": "Pengetahuan Alam (Biologi)"
+    },
+    {
+      "tanya": "Organ tubuh manusia yang berfungsi memompa darah ke seluruh tubuh adalah ...",
+      "pilihan": [
+        "jantung",
+        "paru-paru",
+        "hati",
+        "ginjal"
+      ],
+      "kunci": 0,
+      "bahasan": "Jantung adalah organ pemompa darah dalam sistem peredaran darah. Paru-paru tempat pertukaran gas, hati antara lain menetralkan racun, dan ginjal menyaring darah membentuk urine.",
+      "topik": "Pengetahuan Alam (Biologi)"
+    },
+    {
+      "tanya": "Satuan pewarisan sifat yang menentukan ciri keturunan suatu makhluk hidup adalah ...",
+      "pilihan": [
+        "jaringan",
+        "organ",
+        "sistem organ",
+        "gen"
+      ],
+      "kunci": 3,
+      "bahasan": "Gen adalah satuan pewarisan sifat yang terdapat pada kromosom di dalam inti sel dan diwariskan dari induk kepada keturunannya.",
+      "topik": "Pengetahuan Alam (Biologi)"
+    },
+    {
+      "tanya": "Dalam sebuah rantai makanan di sawah, yang berperan sebagai produsen adalah ...",
+      "pilihan": [
+        "belalang",
+        "tanaman padi",
+        "katak",
+        "ular"
+      ],
+      "kunci": 1,
+      "bahasan": "Produsen adalah makhluk hidup yang membuat makanannya sendiri melalui fotosintesis, yaitu tanaman padi. Belalang, katak, dan ular adalah konsumen pada tingkat yang berbeda-beda.",
+      "topik": "Pengetahuan Alam (Biologi)"
+    },
+    {
+      "tanya": "She ___ to the training field every morning.",
+      "pilihan": [
+        "goes",
+        "go",
+        "going",
+        "gone"
+      ],
+      "kunci": 0,
+      "bahasan": "Subjek \"She\" adalah orang ketiga tunggal, sehingga kata kerja bentuk kalimat berita waktu kini mendapat akhiran -es: \"goes\".",
+      "topik": "Bahasa Inggris"
+    },
+    {
+      "tanya": "The past form of the verb \"eat\" is ...",
+      "pilihan": [
+        "eated",
+        "eating",
+        "ate",
+        "eats"
+      ],
+      "kunci": 2,
+      "bahasan": "\"Eat\" adalah kata kerja tidak beraturan: eat – ate – eaten. Bentuk lampau (past simple) yang benar adalah \"ate\"; \"eated\" tidak ada dalam bahasa Inggris.",
+      "topik": "Bahasa Inggris"
+    },
+    {
+      "tanya": "The synonym of \"rapid\" is ...",
+      "pilihan": [
+        "slow",
+        "fast",
+        "weak",
+        "late"
+      ],
+      "kunci": 1,
+      "bahasan": "\"Rapid\" berarti cepat, sinonimnya \"fast\". \"Slow\" adalah antonimnya, \"weak\" berarti lemah, dan \"late\" berarti terlambat.",
+      "topik": "Bahasa Inggris"
+    },
+    {
+      "tanya": "They ___ playing football at the moment.",
+      "pilihan": [
+        "is",
+        "am",
+        "was playing yesterday",
+        "are"
+      ],
+      "kunci": 3,
+      "bahasan": "Frasa \"at the moment\" menunjukkan present continuous dengan subjek jamak \"They\", sehingga dipakai \"are\" + kata kerja -ing: \"They are playing\".",
+      "topik": "Bahasa Inggris"
+    },
+    {
+      "tanya": "Mount Semeru is ___ than Mount Slamet.",
+      "pilihan": [
+        "high",
+        "highest",
+        "higher",
+        "more high"
+      ],
+      "kunci": 2,
+      "bahasan": "Kata \"than\" menandai perbandingan (comparative degree), sehingga dipakai \"higher\". \"Highest\" adalah superlatif dan tidak dipakai bersama \"than\" di sini.",
+      "topik": "Bahasa Inggris"
+    },
+    {
+      "tanya": "Read the text: \"Andi wakes up at 5 a.m. Before going to school, he jogs around his village for thirty minutes.\" What does Andi do before going to school?",
+      "pilihan": [
+        "He jogs around his village.",
+        "He wakes up at school.",
+        "He jogs for five hours.",
+        "He goes to school at 5 a.m."
+      ],
+      "kunci": 0,
+      "bahasan": "Teks menyatakan Andi bangun pukul 5 pagi lalu jogging mengelilingi kampungnya selama tiga puluh menit sebelum berangkat sekolah.",
+      "topik": "Bahasa Inggris"
+    },
+    {
+      "tanya": "The manual book is ___ the table.",
+      "pilihan": [
+        "in the table",
+        "at table yesterday",
+        "between table",
+        "on"
+      ],
+      "kunci": 3,
+      "bahasan": "Untuk benda yang berada di atas permukaan, preposisi yang tepat adalah \"on\": \"on the table\".",
+      "topik": "Bahasa Inggris"
+    },
+    {
+      "tanya": "The plural form of \"child\" is ...",
+      "pilihan": [
+        "childs",
+        "children",
+        "childes",
+        "childrens"
+      ],
+      "kunci": 1,
+      "bahasan": "\"Child\" adalah kata benda tidak beraturan; bentuk jamaknya \"children\", bukan ditambah -s biasa.",
+      "topik": "Bahasa Inggris"
+    },
+    {
+      "tanya": "Bacalah paragraf berikut: \"Latihan fisik yang teratur membuat tubuh prajurit kuat dan bugar. Dengan tubuh yang bugar, tugas berat di lapangan dapat dijalani dengan baik. Karena itu, pembinaan fisik menjadi menu wajib setiap hari.\" Ide pokok paragraf tersebut adalah ...",
+      "pilihan": [
+        "pentingnya latihan fisik teratur bagi kebugaran prajurit",
+        "jadwal upacara di lapangan",
+        "jenis-jenis tugas berat prajurit",
+        "menu makanan prajurit setiap hari"
+      ],
+      "kunci": 0,
+      "bahasan": "Seluruh kalimat dalam paragraf mendukung satu gagasan utama: latihan fisik teratur penting bagi kebugaran prajurit. Pilihan lain hanya menyentuh potongan kecil isi paragraf.",
+      "topik": "Bahasa Indonesia"
+    },
+    {
+      "tanya": "Kalimat yang efektif adalah ...",
+      "pilihan": [
+        "Para peserta-peserta mengikuti tes dengan tertibnya sekali.",
+        "Kepada para peserta diharapkan untuk mengikuti tes dengan tertib-rapi.",
+        "Para peserta mengikuti tes dengan tertib.",
+        "Para peserta mengikuti tes dengan sangat amat tertib sekali."
+      ],
+      "kunci": 2,
+      "bahasan": "Kalimat efektif itu hemat dan tidak bertele-tele: \"Para peserta mengikuti tes dengan tertib.\" Pilihan lain mengandung pengulangan kata dan pemborosan (\"peserta-peserta\" setelah \"para\", \"sangat amat ... sekali\").",
+      "topik": "Bahasa Indonesia"
+    },
+    {
+      "tanya": "Sinonim kata \"gigih\" adalah ...",
+      "pilihan": [
+        "lelah",
+        "tekun",
+        "ragu",
+        "sombong"
+      ],
+      "kunci": 1,
+      "bahasan": "\"Gigih\" berarti tekun dan tidak mudah menyerah dalam berusaha, sehingga sinonimnya adalah \"tekun\".",
+      "topik": "Bahasa Indonesia"
+    },
+    {
+      "tanya": "Antonim kata \"optimis\" adalah ...",
+      "pilihan": [
+        "realistis",
+        "percaya diri",
+        "semangat",
+        "pesimis"
+      ],
+      "kunci": 3,
+      "bahasan": "Optimis berarti berpandangan penuh harapan; lawan katanya adalah pesimis, yaitu berpandangan serba suram terhadap hasil.",
+      "topik": "Bahasa Indonesia"
+    },
+    {
+      "tanya": "Penulisan huruf kapital yang benar terdapat pada kalimat ...",
+      "pilihan": [
+        "Sungai bengawan solo mengalir melalui jawa tengah.",
+        "sungai Bengawan Solo Mengalir Melalui Jawa Tengah.",
+        "Sungai Bengawan Solo mengalir melalui Jawa Tengah dan Jawa Timur.",
+        "Sungai Bengawan solo mengalir melalui Jawa tengah dan Jawa Timur."
+      ],
+      "kunci": 2,
+      "bahasan": "Nama geografi (Sungai Bengawan Solo, Jawa Tengah, Jawa Timur) ditulis dengan huruf kapital pada setiap kata pentingnya, dan awal kalimat juga kapital. Pilihan lain salah pada penulisan nama tempatnya.",
+      "topik": "Bahasa Indonesia"
+    },
+    {
+      "tanya": "Kata baku dari kata \"apotik\" adalah ...",
+      "pilihan": [
+        "apotek",
+        "apotik",
+        "afotek",
+        "apoteker"
+      ],
+      "kunci": 0,
+      "bahasan": "Menurut KBBI, bentuk baku tempat menjual obat adalah \"apotek\". \"Apoteker\" adalah nama profesinya, bukan tempatnya.",
+      "topik": "Bahasa Indonesia"
+    },
+    {
+      "tanya": "Kata berimbuhan yang tepat untuk melengkapi kalimat \"Prajurit itu berhasil ___ posisi musuh dalam latihan perang-perangan\" adalah ...",
+      "pilihan": [
+        "merebutkan",
+        "rebutan",
+        "direbut-rebut",
+        "merebut"
+      ],
+      "kunci": 3,
+      "bahasan": "Kata dasar \"rebut\" dengan awalan me- menjadi \"merebut\" dan tepat sebagai predikat kalimat aktif tersebut. Bentuk lain tidak sesuai kaidah atau makna kalimat.",
+      "topik": "Bahasa Indonesia"
+    },
+    {
+      "tanya": "Penggunaan tanda koma yang benar terdapat pada kalimat ...",
+      "pilihan": [
+        "Setelah apel pagi seluruh peserta, mengikuti pemeriksaan kesehatan.",
+        "Setelah apel pagi, seluruh peserta mengikuti pemeriksaan kesehatan.",
+        "Setelah, apel pagi seluruh peserta mengikuti pemeriksaan, kesehatan.",
+        "Setelah apel pagi seluruh peserta mengikuti, pemeriksaan kesehatan."
+      ],
+      "kunci": 1,
+      "bahasan": "Keterangan waktu yang mendahului induk kalimat dipisahkan dengan tanda koma: \"Setelah apel pagi, seluruh peserta mengikuti pemeriksaan kesehatan.\" Tanda koma tidak memisahkan subjek dari predikatnya.",
+      "topik": "Bahasa Indonesia"
+    },
+    {
+      "tanya": "Bunyi sila keempat Pancasila adalah ...",
+      "pilihan": [
+        "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan",
+        "Persatuan Indonesia",
+        "Kemanusiaan yang adil dan beradab",
+        "Keadilan sosial bagi seluruh rakyat Indonesia"
+      ],
+      "kunci": 0,
+      "bahasan": "Sila keempat berbunyi \"Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan\". Pilihan lain adalah sila ketiga, kedua, dan kelima.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Menurut Pasal 1 ayat (1) UUD 1945, Negara Indonesia adalah negara kesatuan yang berbentuk ...",
+      "pilihan": [
+        "federasi",
+        "kerajaan",
+        "republik",
+        "serikat"
+      ],
+      "kunci": 2,
+      "bahasan": "Pasal 1 ayat (1) UUD 1945 menyatakan: \"Negara Indonesia ialah negara kesatuan, yang berbentuk Republik.\"",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Menurut UU No. 34 Tahun 2004, tugas pokok TNI adalah ...",
+      "pilihan": [
+        "memelihara keamanan dan ketertiban masyarakat serta menegakkan hukum",
+        "menegakkan kedaulatan negara, mempertahankan keutuhan wilayah NKRI, dan melindungi segenap bangsa dan seluruh tumpah darah Indonesia",
+        "melaksanakan pembangunan daerah dan pelayanan administrasi kependudukan",
+        "mengatur lalu lintas dan menerbitkan surat izin mengemudi"
+      ],
+      "kunci": 1,
+      "bahasan": "Pasal 7 ayat (1) UU No. 34 Tahun 2004 menetapkan tugas pokok TNI di bidang pertahanan negara seperti pada jawaban. Memelihara kamtibmas dan menegakkan hukum adalah tugas pokok Polri.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Berdasarkan UUD 1945, kekuasaan tertinggi atas Angkatan Darat, Angkatan Laut, dan Angkatan Udara dipegang oleh ...",
+      "pilihan": [
+        "Panglima TNI",
+        "Menteri Pertahanan",
+        "Ketua DPR",
+        "Presiden"
+      ],
+      "kunci": 3,
+      "bahasan": "Pasal 10 UUD 1945 menyatakan Presiden memegang kekuasaan tertinggi atas Angkatan Darat, Angkatan Laut, dan Angkatan Udara.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Teks Proklamasi Kemerdekaan Indonesia dibacakan oleh Ir. Soekarno pada 17 Agustus 1945 bertempat di ...",
+      "pilihan": [
+        "Lapangan Ikada, Jakarta",
+        "Jalan Imam Bonjol Nomor 1, Jakarta",
+        "Jalan Pegangsaan Timur Nomor 56, Jakarta",
+        "Gedung Pancasila, Jakarta"
+      ],
+      "kunci": 2,
+      "bahasan": "Proklamasi dibacakan di halaman rumah Ir. Soekarno di Jalan Pegangsaan Timur No. 56, Jakarta, pada Jumat, 17 Agustus 1945 pukul 10.00.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Peristiwa Sumpah Pemuda yang menjadi tonggak persatuan bangsa terjadi pada tanggal ...",
+      "pilihan": [
+        "28 Oktober 1928",
+        "20 Mei 1908",
+        "17 Agustus 1945",
+        "1 Juni 1945"
+      ],
+      "kunci": 0,
+      "bahasan": "Sumpah Pemuda diikrarkan pada Kongres Pemuda II, 28 Oktober 1928. Tanggal 20 Mei 1908 adalah Kebangkitan Nasional (Budi Utomo) dan 1 Juni 1945 adalah pidato lahirnya Pancasila.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Ketentuan UUD 1945 yang menegaskan bahwa bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan terdapat pada ...",
+      "pilihan": [
+        "Pasal 1 ayat (2)",
+        "Pasal 18 ayat (1)",
+        "Pasal 30 ayat (1)",
+        "Pasal 37 ayat (5)"
+      ],
+      "kunci": 3,
+      "bahasan": "Pasal 37 ayat (5) UUD 1945 menyatakan khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Hari lahir Pancasila diperingati setiap tanggal 1 Juni, merujuk pada peristiwa ...",
+      "pilihan": [
+        "pengangkatan Ir. Soekarno sebagai presiden pertama",
+        "pidato Ir. Soekarno di sidang BPUPKI tahun 1945",
+        "pembacaan teks Proklamasi tahun 1945",
+        "sidang PPKI yang mengesahkan UUD 1945"
+      ],
+      "kunci": 1,
+      "bahasan": "Pada 1 Juni 1945, Ir. Soekarno berpidato di sidang BPUPKI dan pertama kali mengemukakan nama serta rumusan lima dasar negara yang disebutnya Pancasila.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Bendera Merah Putih yang dikibarkan pada Proklamasi 1945 dijahit oleh ...",
+      "pilihan": [
+        "Fatmawati",
+        "Cut Nyak Dien",
+        "R.A. Kartini",
+        "Dewi Sartika"
+      ],
+      "kunci": 0,
+      "bahasan": "Sang Saka Merah Putih jahitan Ibu Fatmawati, istri Ir. Soekarno, dikibarkan pada upacara Proklamasi 17 Agustus 1945.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Semboyan Bhinneka Tunggal Ika yang tercantum pada lambang negara Garuda Pancasila berarti ...",
+      "pilihan": [
+        "bersatu kita teguh, bercerai kita runtuh",
+        "satu nusa, satu bangsa, satu bahasa",
+        "berbeda-beda tetapi tetap satu jua",
+        "merdeka atau mati"
+      ],
+      "kunci": 2,
+      "bahasan": "Bhinneka Tunggal Ika berasal dari Kitab Sutasoma karya Mpu Tantular dan berarti \"berbeda-beda tetapi tetap satu jua\" — keberagaman bangsa yang tetap satu kesatuan.",
+      "topik": "Wawasan Kebangsaan"
+    }
+  ]
+}

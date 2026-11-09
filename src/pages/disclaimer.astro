@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, withBase } from '../config/site';
+---
+
+<Base title="Disclaimer" description="Disclaimer PrediksiTNI: soal latihan orisinal, bukan bocoran, bukan soal resmi, tidak berafiliasi dengan TNI, tanpa jaminan kelulusan." path="/disclaimer/">
+  <nav class="breadcrumb"><a href={withBase('/')}>beranda</a> / <span>disclaimer</span></nav>
+  <h1>Disclaimer</h1>
+  <div class="prose narrow">
+    <h2>Soal latihan orisinal — bukan bocoran, bukan soal resmi</h2>
+    <p>
+      Seluruh soal di {SITE_NAME} adalah <strong>soal latihan yang kami tulis sendiri</strong> mengikuti
+      mata uji yang umum diujikan pada seleksi TNI dan materi pelajarannya. Soal-soal ini
+      <strong>bukan</strong> soal seleksi TNI yang sebenarnya, bukan bocoran, dan bukan terbitan panitia.
+      Soal seleksi TNI bersifat rahasia dan tidak pernah diterbitkan; kemiripan pola atau topik dengan
+      soal yang kelak Anda hadapi adalah hal yang wajar karena materinya sama, bukan karena kami
+      memegang soal aslinya.
+    </p>
+    <h2>Tidak berafiliasi dengan TNI</h2>
+    <p>
+      {SITE_NAME} adalah situs independen. Kami <strong>tidak berafiliasi</strong> dengan Tentara Nasional
+      Indonesia, Kementerian Pertahanan, matra AD/AL/AU, maupun instansi pemerintah mana pun. Nama "TNI"
+      dipakai semata untuk menjelaskan tujuan latihan. Pendaftaran resmi hanya melalui
+      rekrutmen-tni.mil.id, dan seleksi prajurit TNI <strong>tidak dipungut biaya</strong> — waspadai
+      pihak mana pun yang meminta uang dengan janji meluluskan.
+    </p>
+    <h2>Tidak ada jaminan kelulusan</h2>
+    <p>
+      Nilai latihan di situs ini adalah alat ukur kesiapan belajar, bukan prediksi hasil seleksi.
+      Kelulusan ditentukan oleh keseluruhan tahapan seleksi resmi — administrasi, kesehatan, jasmani,
+      psikologi, akademik, dan penelitian personel — yang berada sepenuhnya di tangan panitia. Kami
+      <strong>tidak menjamin</strong> kelulusan dalam bentuk apa pun.
+    </p>
+    <h2>Keakuratan materi</h2>
+    <p>
+      Materi faktual (Pancasila, UUD 1945, UU No. 34 Tahun 2004, kurikulum sekolah) kami susun dari
+      sumber publik dan kami periksa sebelum terbit, tetapi peraturan dan ketentuan seleksi dapat berubah.
+      Untuk keputusan resmi, selalu rujuk pengumuman terbaru di portal rekrutmen TNI. Temuan kesalahan
+      dapat dilaporkan melalui <a href={withBase('/kontak/')}>halaman kontak</a>.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,503 @@
+{
+  "slug": "bintara-tamtama",
+  "judul": "Prediksi Soal Tes Bintara & Tamtama TNI",
+  "jalur": "Bintara PK & Tamtama PK (AD · AL · AU)",
+  "durasiMenit": 80,
+  "intro": "Latihan 40 soal untuk calon Bintara dan Tamtama PK TNI: Wawasan Kebangsaan 14 soal (Pancasila, UUD 1945, NKRI, sejarah perjuangan, bela negara), Pengetahuan Umum 12 soal (geografi Indonesia, kewarganegaraan, dasar UU No. 34 Tahun 2004 tentang TNI), dan Matematika Dasar 14 soal. Soal latihan orisinal — bukan bocoran dan bukan soal resmi.",
+  "komposisi": [
+    {
+      "topik": "Wawasan Kebangsaan",
+      "jumlah": 14
+    },
+    {
+      "topik": "Pengetahuan Umum",
+      "jumlah": 12
+    },
+    {
+      "topik": "Matematika Dasar",
+      "jumlah": 14
+    }
+  ],
+  "soal": [
+    {
+      "tanya": "Bunyi sila pertama Pancasila adalah ...",
+      "pilihan": [
+        "Ketuhanan Yang Maha Esa",
+        "Kemanusiaan yang adil dan beradab",
+        "Persatuan Indonesia",
+        "Keadilan sosial bagi seluruh rakyat Indonesia"
+      ],
+      "kunci": 0,
+      "bahasan": "Sila pertama Pancasila berbunyi \"Ketuhanan Yang Maha Esa\", dilambangkan bintang. Pilihan lain adalah sila kedua, ketiga, dan kelima.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Lambang sila ketiga Pancasila, Persatuan Indonesia, adalah ...",
+      "pilihan": [
+        "rantai",
+        "padi dan kapas",
+        "pohon beringin",
+        "banteng"
+      ],
+      "kunci": 2,
+      "bahasan": "Sila ketiga dilambangkan pohon beringin. Rantai adalah lambang sila kedua, banteng sila keempat, dan padi serta kapas sila kelima.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Lambang sila kelima Pancasila adalah ...",
+      "pilihan": [
+        "bintang",
+        "padi dan kapas",
+        "pohon beringin",
+        "rantai"
+      ],
+      "kunci": 1,
+      "bahasan": "Sila kelima, Keadilan sosial bagi seluruh rakyat Indonesia, dilambangkan padi dan kapas yang menggambarkan sandang dan pangan sebagai kebutuhan dasar rakyat.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "UUD 1945 disahkan sebagai konstitusi negara oleh PPKI pada tanggal ...",
+      "pilihan": [
+        "17 Agustus 1945",
+        "1 Juni 1945",
+        "28 Oktober 1928",
+        "18 Agustus 1945"
+      ],
+      "kunci": 3,
+      "bahasan": "Sehari setelah Proklamasi, pada 18 Agustus 1945, PPKI mengesahkan UUD 1945 dan memilih Presiden serta Wakil Presiden pertama.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Ketua Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan Indonesia (BPUPKI) adalah ...",
+      "pilihan": [
+        "Ir. Soekarno",
+        "Drs. Mohammad Hatta",
+        "Radjiman Wedyodiningrat",
+        "Mr. Muhammad Yamin"
+      ],
+      "kunci": 2,
+      "bahasan": "BPUPKI diketuai oleh dr. Radjiman Wedyodiningrat. Soekarno, Hatta, dan Yamin adalah anggota yang menyampaikan usulan dasar negara dalam sidang BPUPKI.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Semboyan Bhinneka Tunggal Ika diambil dari Kitab Sutasoma karya ...",
+      "pilihan": [
+        "Mpu Tantular",
+        "Mpu Prapanca",
+        "Mpu Sedah",
+        "Mpu Panuluh"
+      ],
+      "kunci": 0,
+      "bahasan": "Frasa Bhinneka Tunggal Ika terdapat dalam Kitab Sutasoma karya Mpu Tantular pada masa Majapahit. Mpu Prapanca menulis Kitab Negarakertagama.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Menurut Pasal 30 ayat (1) UUD 1945, tiap-tiap warga negara berhak dan wajib ikut serta dalam ...",
+      "pilihan": [
+        "pemilihan umum lima tahunan",
+        "pembayaran pajak dan retribusi",
+        "program wajib belajar dua belas tahun",
+        "usaha pertahanan dan keamanan negara"
+      ],
+      "kunci": 3,
+      "bahasan": "Pasal 30 ayat (1) UUD 1945: \"Tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha pertahanan dan keamanan negara.\" Inilah landasan konstitusional bela negara.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Pertempuran besar rakyat Surabaya melawan tentara Sekutu pada 10 November 1945 diperingati sebagai ...",
+      "pilihan": [
+        "Hari Kebangkitan Nasional",
+        "Hari Pahlawan",
+        "Hari Kesaktian Pancasila",
+        "Hari Sumpah Pemuda"
+      ],
+      "kunci": 1,
+      "bahasan": "Peristiwa 10 November 1945 di Surabaya diperingati sebagai Hari Pahlawan. Hari Kebangkitan Nasional jatuh pada 20 Mei dan Hari Kesaktian Pancasila pada 1 Oktober.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Pengakuan kedaulatan Indonesia oleh Belanda secara resmi terjadi melalui ...",
+      "pilihan": [
+        "Konferensi Meja Bundar tahun 1949",
+        "Perjanjian Linggarjati tahun 1947",
+        "Perjanjian Renville tahun 1948",
+        "Proklamasi 17 Agustus 1945"
+      ],
+      "kunci": 0,
+      "bahasan": "Melalui Konferensi Meja Bundar di Den Haag tahun 1949, Belanda secara resmi mengakui kedaulatan Indonesia pada 27 Desember 1949.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Butir ketiga Sumpah Pemuda tahun 1928 menyatakan menjunjung tinggi ...",
+      "pilihan": [
+        "tanah air Indonesia",
+        "bangsa Indonesia",
+        "bahasa persatuan, Bahasa Indonesia",
+        "lagu kebangsaan Indonesia Raya"
+      ],
+      "kunci": 2,
+      "bahasan": "Sumpah Pemuda berisi tiga ikrar: satu tanah air, satu bangsa, dan menjunjung bahasa persatuan, Bahasa Indonesia.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Indonesia disebut negara kepulauan karena ...",
+      "pilihan": [
+        "seluruh penduduknya bekerja sebagai nelayan",
+        "wilayahnya terdiri atas ribuan pulau yang tersebar dari Sabang sampai Merauke",
+        "ibu kotanya berada di sebuah pulau kecil",
+        "wilayahnya hanya terdiri atas dua pulau besar"
+      ],
+      "kunci": 1,
+      "bahasan": "Indonesia adalah negara kepulauan terbesar di dunia, terdiri atas belasan ribu pulau besar dan kecil yang dihubungkan oleh perairan.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Rumusan Pancasila sebagai dasar negara tercantum dalam Pembukaan UUD 1945, tepatnya pada ...",
+      "pilihan": [
+        "alinea pertama",
+        "alinea kedua",
+        "alinea ketiga",
+        "alinea keempat"
+      ],
+      "kunci": 3,
+      "bahasan": "Alinea keempat Pembukaan UUD 1945 memuat rumusan kelima sila Pancasila secara berurutan sebagai dasar negara.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Pengambilan keputusan dengan cara membicarakan bersama hingga tercapai kesepakatan bersama disebut ...",
+      "pilihan": [
+        "voting suara terbanyak",
+        "keputusan sepihak pemimpin",
+        "musyawarah untuk mufakat",
+        "undian bersama"
+      ],
+      "kunci": 2,
+      "bahasan": "Musyawarah untuk mufakat adalah cara pengambilan keputusan khas sila keempat Pancasila: dibicarakan bersama hingga dicapai kata sepakat.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Sikap bela negara yang paling tepat ditunjukkan oleh seorang siswa adalah ...",
+      "pilihan": [
+        "belajar dengan tekun dan menaati peraturan sekolah",
+        "menghindari upacara bendera karena melelahkan",
+        "menolak mata pelajaran Pendidikan Pancasila",
+        "hanya bergaul dengan teman satu daerah asal"
+      ],
+      "kunci": 0,
+      "bahasan": "Bela negara tidak selalu berarti angkat senjata; bagi siswa, wujudnya adalah belajar tekun, disiplin, dan menaati aturan — sikap yang menjadi fondasi kesiapan membela negara.",
+      "topik": "Wawasan Kebangsaan"
+    },
+    {
+      "tanya": "Ibu kota Provinsi Jawa Timur adalah ...",
+      "pilihan": [
+        "Malang",
+        "Kediri",
+        "Madiun",
+        "Surabaya"
+      ],
+      "kunci": 3,
+      "bahasan": "Ibu kota Provinsi Jawa Timur adalah Surabaya. Malang, Kediri, dan Madiun adalah kota lain di Jawa Timur, bukan ibu kota provinsi.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Pulau terbesar di wilayah Indonesia adalah ...",
+      "pilihan": [
+        "Sumatera",
+        "Kalimantan",
+        "Sulawesi",
+        "Jawa"
+      ],
+      "kunci": 1,
+      "bahasan": "Kalimantan adalah pulau terbesar di Indonesia (bagian Indonesia dari Pulau Borneo), disusul Sumatera dan Papua sebagai pulau terluas berikutnya.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Selat yang memisahkan Pulau Jawa dan Pulau Sumatera adalah ...",
+      "pilihan": [
+        "Selat Sunda",
+        "Selat Malaka",
+        "Selat Madura",
+        "Selat Makassar"
+      ],
+      "kunci": 0,
+      "bahasan": "Selat Sunda terletak di antara Jawa dan Sumatera. Selat Malaka memisahkan Sumatera dari Semenanjung Malaya, Selat Madura di antara Jawa dan Madura.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Gunung tertinggi di Indonesia adalah ...",
+      "pilihan": [
+        "Gunung Semeru di Jawa Timur",
+        "Gunung Kerinci di Jambi",
+        "Puncak Jaya di Papua",
+        "Gunung Rinjani di Nusa Tenggara Barat"
+      ],
+      "kunci": 2,
+      "bahasan": "Puncak Jaya (Carstensz) di Papua, sekitar 4.884 mdpl, adalah titik tertinggi Indonesia. Semeru adalah yang tertinggi di Pulau Jawa, bukan di Indonesia.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Menurut UU No. 34 Tahun 2004, TNI terdiri atas ...",
+      "pilihan": [
+        "TNI Angkatan Darat dan Kepolisian Negara Republik Indonesia",
+        "TNI Angkatan Darat, TNI Angkatan Laut, dan TNI Angkatan Udara",
+        "TNI Angkatan Darat, Angkatan Laut, dan Badan Intelijen Negara",
+        "TNI Angkatan Darat saja sebagai matra tunggal"
+      ],
+      "kunci": 1,
+      "bahasan": "UU No. 34 Tahun 2004 tentang TNI menetapkan TNI terdiri atas tiga matra: Angkatan Darat, Angkatan Laut, dan Angkatan Udara. Polri adalah institusi tersendiri di luar TNI.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Markas Besar TNI berkedudukan di ...",
+      "pilihan": [
+        "Magelang, Jawa Tengah",
+        "Cimahi, Jawa Barat",
+        "Surabaya, Jawa Timur",
+        "Cilangkap, Jakarta Timur"
+      ],
+      "kunci": 3,
+      "bahasan": "Markas Besar (Mabes) TNI berada di Cilangkap, Jakarta Timur. Magelang dikenal sebagai lokasi Akademi Militer, bukan Mabes TNI.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Menurut UU No. 34 Tahun 2004, Panglima TNI diangkat dan diberhentikan oleh ...",
+      "pilihan": [
+        "Menteri Pertahanan tanpa persetujuan DPR",
+        "Presiden tanpa melibatkan DPR",
+        "Presiden dengan persetujuan DPR",
+        "Kepala Staf Angkatan secara bergilir"
+      ],
+      "kunci": 2,
+      "bahasan": "Pasal 13 UU No. 34 Tahun 2004: Panglima TNI diangkat dan diberhentikan oleh Presiden setelah mendapat persetujuan Dewan Perwakilan Rakyat.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Jumlah provinsi di Indonesia saat ini adalah ...",
+      "pilihan": [
+        "38 provinsi",
+        "34 provinsi",
+        "36 provinsi",
+        "40 provinsi"
+      ],
+      "kunci": 0,
+      "bahasan": "Setelah pemekaran empat provinsi baru di Papua (Papua Selatan, Papua Tengah, Papua Pegunungan, dan Papua Barat Daya), jumlah provinsi Indonesia menjadi 38.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Hari ulang tahun TNI diperingati setiap tanggal ...",
+      "pilihan": [
+        "17 Agustus",
+        "10 November",
+        "1 Juni",
+        "5 Oktober"
+      ],
+      "kunci": 3,
+      "bahasan": "HUT TNI diperingati setiap 5 Oktober, merujuk pada pembentukan Tentara Keamanan Rakyat (TKR) pada 5 Oktober 1945.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Sungai terpanjang di Indonesia adalah ...",
+      "pilihan": [
+        "Sungai Bengawan Solo di Jawa",
+        "Sungai Kapuas di Kalimantan Barat",
+        "Sungai Musi di Sumatera Selatan",
+        "Sungai Citarum di Jawa Barat"
+      ],
+      "kunci": 1,
+      "bahasan": "Sungai Kapuas di Kalimantan Barat, dengan panjang sekitar 1.143 km, adalah sungai terpanjang di Indonesia.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Kewarganegaraan Republik Indonesia saat ini diatur dalam undang-undang, yaitu ...",
+      "pilihan": [
+        "UU No. 12 Tahun 2006",
+        "UU No. 34 Tahun 2004",
+        "UU No. 2 Tahun 2002",
+        "UU No. 20 Tahun 2003"
+      ],
+      "kunci": 0,
+      "bahasan": "Kewarganegaraan diatur dalam UU No. 12 Tahun 2006. UU 34/2004 mengatur TNI, UU 2/2002 mengatur Polri, dan UU 20/2003 mengatur sistem pendidikan nasional.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Danau terbesar di Indonesia adalah ...",
+      "pilihan": [
+        "Danau Poso di Sulawesi Tengah",
+        "Danau Singkarak di Sumatera Barat",
+        "Danau Toba di Sumatera Utara",
+        "Danau Sentani di Papua"
+      ],
+      "kunci": 2,
+      "bahasan": "Danau Toba di Sumatera Utara adalah danau terbesar di Indonesia sekaligus salah satu danau vulkanik terbesar di dunia.",
+      "topik": "Pengetahuan Umum"
+    },
+    {
+      "tanya": "Sebuah batalyon memiliki 1.300 prajurit. Jika bergabung lagi 625 prajurit, jumlah prajurit sekarang adalah ...",
+      "pilihan": [
+        "1.825 prajurit",
+        "1.925 prajurit",
+        "2.025 prajurit",
+        "675 prajurit"
+      ],
+      "kunci": 1,
+      "bahasan": "1.300 + 625 = 1.925 prajurit.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Dapur lapangan menyiapkan 2.100 porsi makanan. Sebanyak 750 porsi telah dibagikan. Sisa porsi yang belum dibagikan adalah ...",
+      "pilihan": [
+        "1.450 porsi",
+        "1.300 porsi",
+        "2.850 porsi",
+        "1.350 porsi"
+      ],
+      "kunci": 3,
+      "bahasan": "2.100 − 750 = 1.350 porsi.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Dalam satu upacara, peserta dibagi menjadi 30 regu dengan 12 orang per regu. Jumlah seluruh peserta upacara adalah ...",
+      "pilihan": [
+        "348 orang",
+        "390 orang",
+        "360 orang",
+        "42 orang"
+      ],
+      "kunci": 2,
+      "bahasan": "30 × 12 = 360 orang.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Sebanyak 900 liter air bersih diangkut dengan 10 truk tangki yang masing-masing memuat jumlah sama. Muatan setiap truk adalah ...",
+      "pilihan": [
+        "90 liter",
+        "100 liter",
+        "80 liter",
+        "900 liter"
+      ],
+      "kunci": 0,
+      "bahasan": "900 : 10 = 90 liter per truk.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Dari 420 siswa yang mendaftar seleksi, 30% dinyatakan lulus tahap administrasi. Banyak siswa yang lulus tahap administrasi adalah ...",
+      "pilihan": [
+        "136 siswa",
+        "121 siswa",
+        "294 siswa",
+        "126 siswa"
+      ],
+      "kunci": 3,
+      "bahasan": "30% × 420 = 30/100 × 420 = 126 siswa.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Perbandingan jumlah bola dan kerucut latihan adalah 3 : 5. Jika jumlah seluruhnya 96 buah, banyak kerucut adalah ...",
+      "pilihan": [
+        "36 buah",
+        "60 buah",
+        "72 buah",
+        "93 buah"
+      ],
+      "kunci": 1,
+      "bahasan": "Satu bagian = 96 : 8 = 12. Kerucut = 5 × 12 = 60 buah.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Angka berikutnya dari pola 4, 10, 16, 22, ... adalah ...",
+      "pilihan": [
+        "28",
+        "22",
+        "40",
+        "23"
+      ],
+      "kunci": 0,
+      "bahasan": "Pola bertambah tetap sebesar 6 setiap langkah, sehingga setelah 22 berikutnya adalah 22 + 6 = 28.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Sebuah petak tanah berbentuk persegi dengan sisi 12 m. Luas petak tanah tersebut adalah ...",
+      "pilihan": [
+        "48 m²",
+        "156 m²",
+        "144 m²",
+        "24 m²"
+      ],
+      "kunci": 2,
+      "bahasan": "Luas persegi = sisi × sisi = 12 × 12 = 144 m². Pilihan 48 m² adalah kelilingnya.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Sebuah aula berbentuk persegi panjang berukuran 18 m × 11 m. Jika sekeliling aula akan dipasangi pita, panjang pita yang dibutuhkan adalah ...",
+      "pilihan": [
+        "29 m",
+        "58 m",
+        "198 m",
+        "62 m"
+      ],
+      "kunci": 1,
+      "bahasan": "Panjang pita = keliling = 2 × (18 + 11) = 58 m.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Nilai empat mata pelajaran seorang siswa adalah 75, 85, 76, 92. Nilai rata-ratanya adalah ...",
+      "pilihan": [
+        "84",
+        "80",
+        "328",
+        "82"
+      ],
+      "kunci": 3,
+      "bahasan": "Jumlah nilai = 75 + 85 + 76 + 92 = 328. Rata-rata = 328 : 4 = 82.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Jarak dua kota adalah 240 km. Jika ditempuh dengan kecepatan rata-rata 80 km/jam, waktu yang diperlukan adalah ...",
+      "pilihan": [
+        "4 jam",
+        "2,5 jam",
+        "3 jam",
+        "19200 jam"
+      ],
+      "kunci": 2,
+      "bahasan": "Waktu = jarak : kecepatan = 240 : 80 = 3 jam.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Rani membeli 2 buku seharga Rp10.000 per buku dan membayar dengan selembar Rp50.000. Uang kembaliannya adalah ...",
+      "pilihan": [
+        "Rp30.000",
+        "Rp32.500",
+        "Rp27.500",
+        "Rp10.000"
+      ],
+      "kunci": 0,
+      "bahasan": "Total belanja = 2 × Rp10.000 = Rp20.000. Kembalian = Rp50.000 − Rp20.000 = Rp30.000.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Hasil dari 3/4 dari 200 adalah ...",
+      "pilihan": [
+        "50",
+        "100",
+        "190",
+        "150"
+      ],
+      "kunci": 3,
+      "bahasan": "3/4 × 200 = (3 × 200) : 4 = 150.",
+      "topik": "Matematika Dasar"
+    },
+    {
+      "tanya": "Pada peta berskala 1 : 250.000, jarak dua pos adalah 4 cm. Jarak sebenarnya kedua pos tersebut adalah ...",
+      "pilihan": [
+        "100 km",
+        "10 km",
+        "1.000.000 km",
+        "5 km"
+      ],
+      "kunci": 1,
+      "bahasan": "Jarak sebenarnya = 4 × 250.000 cm = 1.000.000 cm = 10 km.",
+      "topik": "Matematika Dasar"
+    }
+  ]
+}

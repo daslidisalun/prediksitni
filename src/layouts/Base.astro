@@ -1,0 +1,89 @@
+---
+import { SITE_NAME, SITE_DESCRIPTION, withBase, absolute } from '../config/site';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  path: string;
+}
+const { title, description = SITE_DESCRIPTION, path } = Astro.props;
+const canonical = absolute(path);
+const fullTitle = title === SITE_NAME ? `${SITE_NAME} — Prediksi Soal Tes Akademik TNI, Ada Kunci & Pembahasannya` : `${title} · ${SITE_NAME}`;
+---
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="theme-color" content="#26331f" />
+    <meta name="color-scheme" content="light" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2326331f'/%3E%3Cpath d='M50 18 L82 30 V52 C82 70 68 80 50 86 C32 80 18 70 18 52 V30 Z' fill='none' stroke='%23d8c690' stroke-width='7'/%3E%3C/svg%3E" />
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href={withBase('/')} aria-label={SITE_NAME}>
+          <svg class="logo-mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="20" fill="#26331f"/><path d="M50 18 L82 30 V52 C82 70 68 80 50 86 C32 80 18 70 18 52 V30 Z" fill="none" stroke="#d8c690" stroke-width="7"/></svg>
+          <span>prediksi<strong>tni</strong></span>
+        </a>
+        <nav class="main-nav">
+          <a href={withBase('/paket/')}>Paket Soal</a>
+          <a href={withBase('/kisi-kisi/')}>Kisi-Kisi</a>
+          <a href={withBase('/tentang/')}>Tentang</a>
+          <a href={withBase('/kontak/')}>Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <h4>Paket Latihan</h4>
+            <ul>
+              <li><a href={withBase('/paket/akademi-tni/')}>Prediksi Soal Akademi TNI</a></li>
+              <li><a href={withBase('/paket/bintara-tamtama/')}>Prediksi Soal Bintara & Tamtama</a></li>
+              <li><a href={withBase('/paket/')}>Semua paket</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Jelajahi</h4>
+            <ul>
+              <li><a href={withBase('/kisi-kisi/')}>Kisi-kisi & tahapan seleksi</a></li>
+              <li><a href={withBase('/tentang/')}>Tentang PrediksiTNI</a></li>
+              <li><a href={withBase('/disclaimer/')}>Disclaimer</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Bantuan</h4>
+            <ul>
+              <li><a href={withBase('/kontak/')}>Kontak</a></li>
+              <li><a href={withBase('/privasi/')}>Kebijakan privasi</a></li>
+              <li><a href={withBase('/disclaimer/')}>Disclaimer</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer-note">
+          {SITE_NAME} · situs latihan mandiri — soal latihan orisinal mengikuti mata uji seleksi TNI,
+          BUKAN bocoran dan BUKAN soal resmi · tidak berafiliasi dengan TNI · © 2026 {SITE_NAME}
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
